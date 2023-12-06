@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img1.png" class="logo-img" alt="AI Explorations logo">
+            <h1 class="logo-title">AI Explorations</h1>
+            </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="info.html">Info</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Get in Touch</h1>
+        <section class="contact-form section">
+            <h2>Have a question? Let's connect!</h2>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" required></textarea>
+                <button class="button" type="submit"><p class="text">Send message</p></button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 AI Explorations</p>
+    </footer>
+</body>
+</html>
